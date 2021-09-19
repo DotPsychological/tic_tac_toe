@@ -15,14 +15,15 @@ Tic Tac Toe is a game that requires two players. One will be X and one will be O
 The objective is draw a line, either horizontal, vertical, or diagonally in a 3x3 before the other player does. X will be starting first in this game \n"""
 )
 
-# Main Board
-print("A1 | A2 | A3")
-print("———|————|————")
-print("B1 | B2 | B3")
-print("———|————|————")
-print("C1 | C2 | C3")
 
 # Dictionaries for each line
-line1 = {"A1": "NULL", "A2": "NULL", "A3": "Null"}
-line2 = {"B1": "NULL", "B2": "NULL", "B3": "Null"}
-line3 = {"B1": "NULL", "B2": "NULL", "B3": "Null"}
+line1 = {"A1": "A1", "A2": "A2", "A3": "A3"}
+line2 = {"B1": "B1", "B2": "B2", "B3": "B3"}
+line3 = {"C1": "C1", "C2": "C2", "C3": "C3"}
+
+# Board Visual Representation
+print (line1["A1"] + " | " + line1["A2"] + " | " + line1["A3"])
+print("———|————|————")
+print (line2["B1"] + " | " + line2["B2"] + " | " + line2["B3"])
+print("———|————|————")
+print (line3["C1"] + " | " + line3["C2"] + " | " + line3["C3"])
