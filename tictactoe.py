@@ -27,3 +27,65 @@ print("———|————|————")
 print (line2["B1"] + " | " + line2["B2"] + " | " + line2["B3"])
 print("———|————|————")
 print (line3["C1"] + " | " + line3["C2"] + " | " + line3["C3"])
+
+# Function to determine if someone has won the game
+for i in range(9):
+  # Function to determine if someone has won the game
+  def GameCondition():
+    if line1["A1"] and line1["A2"] and line1["A3"] == "X" or "O":
+      if line1["A1"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["B1"] and line1["B2"] and line1["B3"] == "X" or "O":
+      if line1["B1"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["C1"] and line1["C2"] and line1["C3"] == "X" or "O":
+      if line1["C1"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["A1"] and line1["B1"] and line1["C1"] == "X" or "O":
+      if line1["A1"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["A2"] and line1["B2"] and line1["C2"] == "X" or "O":
+      if line1["A2"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["A3"] and line1["B3"] and line1["C3"] == "X" or "O":
+      if line1["A3"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["A1"] and line1["B2"] and line1["C3"] == "X" or "O":
+      if line1["A1"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+    elif line1["A3"] and line1["B2"] and line1["C1"] == "X" or "O":
+      if line1["A3"] == "X":
+        print("X has won the game")
+        break
+      else:
+        print("O has won the game")
+        break
+
