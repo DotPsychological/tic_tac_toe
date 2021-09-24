@@ -12,7 +12,7 @@ print("""
 
 print("""Game Overview
 Tic Tac Toe is a game that requires two players. One will be X == "X " and one will be O.
-The objective is draw a line, either horizontal, vertical, or diagonally in a 3x3 before the other player does. X will be starting first in this game \n"""
+The objective is draw a line, either horizontal, vertical, or diagonally in a 3x3 before the other player does. X will be starting first in this game and O will then play after x\n"""
 )
 
 
@@ -101,7 +101,8 @@ while True:
   else:
     line[answer] = "O "
     rerun += 1
-    
+  
+  # Determining if there is already a winner
   if GameCondition() == False:
     print (line["A1"] + " | " + line["A2"] + " | " + line["A3"])
     print("———|————|————")
